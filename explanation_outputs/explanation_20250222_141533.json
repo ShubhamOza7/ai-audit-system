@@ -1,0 +1,325 @@
+{
+    "timestamp": "2025-02-22T14:15:33.479681",
+    "model_type": "DataFrame",
+    "feature_importance": {
+        "person_age": 0.0043359060966443805,
+        "person_income": 0.03813461053927274,
+        "person_emp_length": 0.015606392136789835,
+        "loan_amnt": 0.02400849163432412,
+        "loan_percent_income": 0.17978729911145863,
+        "cb_person_default_on_file": 0.03070846745028097,
+        "person_home_ownership_OTHER": 0.003840525481212668,
+        "person_home_ownership_OWN": 0.033234826054230525,
+        "person_home_ownership_RENT": 0.09481882949726336,
+        "loan_intent_DEBTCONSOLIDATION": 0.020671737240545413,
+        "loan_intent_EDUCATION": 0.007831744481479745,
+        "loan_intent_HOMEIMPROVEMENT": 0.0023624673647879334,
+        "loan_intent_MEDICAL": 0.020262621421625666,
+        "loan_intent_PERSONAL": 0.005667214542182589,
+        "loan_intent_VENTURE": 0.010360021297160881,
+        "loan_grade_A": 0.031464324901252685,
+        "loan_grade_B": 0.02387077997216319,
+        "loan_grade_C": 0.03259398844966123,
+        "loan_grade_D": 0.02548883016797813,
+        "loan_grade_E": 0.053448234902310994,
+        "loan_grade_F": 0.02866917613129072,
+        "loan_grade_G": 0.0414040950581789,
+        "age": 0.0,
+        "gender": 0.0,
+        "race": 0.0
+    },
+    "sample_explanations": {
+        "0": {
+            "person_age": -1.0842021724855044e-19,
+            "person_income": -6.938893903907228e-18,
+            "person_emp_length": -1.3010426069826053e-18,
+            "loan_amnt": -1.0842021724855044e-17,
+            "loan_percent_income": 3.469446951953614e-18,
+            "cb_person_default_on_file": -3.469446951953614e-18,
+            "person_home_ownership_OTHER": 4.0996394647108136e-19,
+            "person_home_ownership_OWN": 4.683753385137379e-17,
+            "person_home_ownership_RENT": 1.0408340855860843e-17,
+            "loan_intent_DEBTCONSOLIDATION": -8.673617379884035e-18,
+            "loan_intent_EDUCATION": -2.8189256484623115e-18,
+            "loan_intent_HOMEIMPROVEMENT": -1.1926223897340549e-18,
+            "loan_intent_MEDICAL": 2.168404344971009e-18,
+            "loan_intent_PERSONAL": -4.0657581468206416e-19,
+            "loan_intent_VENTURE": 2.949029909160572e-17,
+            "loan_grade_A": -1.1449174941446927e-16,
+            "loan_grade_B": 1.734723475976807e-17,
+            "loan_grade_C": 1.214306433183765e-17,
+            "loan_grade_D": 1.6479873021779667e-17,
+            "loan_grade_E": 3.903127820947816e-18,
+            "loan_grade_F": -1.6263032587282567e-18,
+            "loan_grade_G": 5.421010862427522e-20,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "1": {
+            "person_age": 8.673617379884035e-18,
+            "person_income": 3.0357660829594124e-18,
+            "person_emp_length": -6.071532165918825e-18,
+            "loan_amnt": 1.0408340855860843e-17,
+            "loan_percent_income": 4.163336342344337e-17,
+            "cb_person_default_on_file": 8.326672684688674e-17,
+            "person_home_ownership_OTHER": -1.0842021724855044e-19,
+            "person_home_ownership_OWN": 1.3183898417423734e-16,
+            "person_home_ownership_RENT": 1.3877787807814457e-17,
+            "loan_intent_DEBTCONSOLIDATION": 2.862293735361732e-17,
+            "loan_intent_EDUCATION": 1.734723475976807e-18,
+            "loan_intent_HOMEIMPROVEMENT": 3.7947076036992655e-19,
+            "loan_intent_MEDICAL": -3.469446951953614e-18,
+            "loan_intent_PERSONAL": -4.336808689942018e-18,
+            "loan_intent_VENTURE": -1.1275702593849246e-17,
+            "loan_grade_A": -1.9081958235744878e-17,
+            "loan_grade_B": 1.9081958235744878e-17,
+            "loan_grade_C": -3.122502256758253e-17,
+            "loan_grade_D": 8.673617379884035e-18,
+            "loan_grade_E": 9.540979117872439e-18,
+            "loan_grade_F": -1.3877787807814457e-17,
+            "loan_grade_G": -1.3552527156068805e-18,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "2": {
+            "person_age": 1.214306433183765e-17,
+            "person_income": 2.3592239273284576e-16,
+            "person_emp_length": -2.2551405187698492e-17,
+            "loan_amnt": -8.673617379884035e-17,
+            "loan_percent_income": -3.3306690738754696e-16,
+            "cb_person_default_on_file": 1.734723475976807e-18,
+            "person_home_ownership_OTHER": 1.0164395367051604e-19,
+            "person_home_ownership_OWN": -5.204170427930421e-18,
+            "person_home_ownership_RENT": 1.8041124150158794e-16,
+            "loan_intent_DEBTCONSOLIDATION": 2.3852447794681098e-18,
+            "loan_intent_EDUCATION": 3.2526065174565133e-18,
+            "loan_intent_HOMEIMPROVEMENT": -2.7755575615628914e-17,
+            "loan_intent_MEDICAL": 2.168404344971009e-18,
+            "loan_intent_PERSONAL": 4.336808689942018e-19,
+            "loan_intent_VENTURE": 4.336808689942018e-18,
+            "loan_grade_A": 5.204170427930421e-18,
+            "loan_grade_B": -1.3010426069826053e-17,
+            "loan_grade_C": -1.9081958235744878e-17,
+            "loan_grade_D": 2.688821387764051e-17,
+            "loan_grade_E": -4.336808689942018e-19,
+            "loan_grade_F": 1.0842021724855044e-18,
+            "loan_grade_G": 2.710505431213761e-20,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "3": {
+            "person_age": 3.0357660829594124e-18,
+            "person_income": 7.28583859910259e-17,
+            "person_emp_length": -2.42861286636753e-17,
+            "loan_amnt": -3.8163916471489756e-17,
+            "loan_percent_income": 4.5102810375396984e-17,
+            "cb_person_default_on_file": -5.898059818321144e-17,
+            "person_home_ownership_OTHER": 2.642742795433417e-19,
+            "person_home_ownership_OWN": -4.336808689942018e-18,
+            "person_home_ownership_RENT": -1.0408340855860843e-17,
+            "loan_intent_DEBTCONSOLIDATION": -1.214306433183765e-17,
+            "loan_intent_EDUCATION": 4.336808689942018e-19,
+            "loan_intent_HOMEIMPROVEMENT": 6.505213034913027e-19,
+            "loan_intent_MEDICAL": 1.2576745200831851e-17,
+            "loan_intent_PERSONAL": 1.951563910473908e-18,
+            "loan_intent_VENTURE": 2.168404344971009e-18,
+            "loan_grade_A": 7.632783294297951e-17,
+            "loan_grade_B": -8.673617379884035e-19,
+            "loan_grade_C": -2.5153490401663703e-17,
+            "loan_grade_D": -1.734723475976807e-17,
+            "loan_grade_E": -2.42861286636753e-17,
+            "loan_grade_F": -1.734723475976807e-18,
+            "loan_grade_G": 2.710505431213761e-19,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "4": {
+            "person_age": -1.5178830414797062e-18,
+            "person_income": -1.1102230246251565e-16,
+            "person_emp_length": 3.469446951953614e-18,
+            "loan_amnt": 4.163336342344337e-17,
+            "loan_percent_income": 4.163336342344337e-17,
+            "cb_person_default_on_file": 2.42861286636753e-16,
+            "person_home_ownership_OTHER": 5.929230630780102e-20,
+            "person_home_ownership_OWN": -6.071532165918825e-18,
+            "person_home_ownership_RENT": 5.204170427930421e-18,
+            "loan_intent_DEBTCONSOLIDATION": 1.3183898417423734e-16,
+            "loan_intent_EDUCATION": -7.15573433840433e-18,
+            "loan_intent_HOMEIMPROVEMENT": 1.5178830414797062e-18,
+            "loan_intent_MEDICAL": 2.42861286636753e-17,
+            "loan_intent_PERSONAL": 1.2576745200831851e-17,
+            "loan_intent_VENTURE": 1.1275702593849246e-17,
+            "loan_grade_A": 1.5959455978986625e-16,
+            "loan_grade_B": -1.0408340855860843e-17,
+            "loan_grade_C": -1.0408340855860843e-16,
+            "loan_grade_D": 3.8163916471489756e-17,
+            "loan_grade_E": 9.974659986866641e-18,
+            "loan_grade_F": 4.163336342344337e-17,
+            "loan_grade_G": -7.589415207398531e-19,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        }
+    },
+    "global_impact": {
+        "person_age": {
+            "mean_impact": 4.71736365248443e-19,
+            "abs_mean_impact": 0.004335906096644376,
+            "max_impact": 0.0370971480362232,
+            "std_impact": 0.005813938831737799
+        },
+        "person_income": {
+            "mean_impact": -3.662348202482235e-17,
+            "abs_mean_impact": 0.038134610539272744,
+            "max_impact": 0.28918293988531263,
+            "std_impact": 0.04369308739372781
+        },
+        "person_emp_length": {
+            "mean_impact": -3.502406697997174e-18,
+            "abs_mean_impact": 0.015606392136789831,
+            "max_impact": 0.080397508793146,
+            "std_impact": 0.019203177914647488
+        },
+        "loan_amnt": {
+            "mean_impact": -1.9914625504213746e-17,
+            "abs_mean_impact": 0.024008491634324152,
+            "max_impact": 0.06714454486365863,
+            "std_impact": 0.027418557368076753
+        },
+        "loan_percent_income": {
+            "mean_impact": -7.654987754790454e-17,
+            "abs_mean_impact": 0.17978729911145835,
+            "max_impact": 0.48902211491955533,
+            "std_impact": 0.22123533106795146
+        },
+        "cb_person_default_on_file": {
+            "mean_impact": -1.7812140651329856e-17,
+            "abs_mean_impact": 0.030708467450281007,
+            "max_impact": 0.10068901387594238,
+            "std_impact": 0.03808153594066733
+        },
+        "person_home_ownership_OTHER": {
+            "mean_impact": -5.1505024203923885e-19,
+            "abs_mean_impact": 0.0038405254812126696,
+            "max_impact": 0.0302541834623268,
+            "std_impact": 0.007707103053094592
+        },
+        "person_home_ownership_OWN": {
+            "mean_impact": 2.842170943040401e-17,
+            "abs_mean_impact": 0.03323482605423054,
+            "max_impact": 0.1496913615881077,
+            "std_impact": 0.04893973867494398
+        },
+        "person_home_ownership_RENT": {
+            "mean_impact": 2.2870594307278223e-17,
+            "abs_mean_impact": 0.09481882949726338,
+            "max_impact": 0.18799968741681466,
+            "std_impact": 0.10626710852702612
+        },
+        "loan_intent_DEBTCONSOLIDATION": {
+            "mean_impact": 3.3154902434606724e-18,
+            "abs_mean_impact": 0.020671737240545364,
+            "max_impact": 0.1657900185052209,
+            "std_impact": 0.03217703388188245
+        },
+        "loan_intent_EDUCATION": {
+            "mean_impact": 1.7006795277607622e-18,
+            "abs_mean_impact": 0.007831744481479741,
+            "max_impact": 0.04819515025122128,
+            "std_impact": 0.010530518515088657
+        },
+        "loan_intent_HOMEIMPROVEMENT": {
+            "mean_impact": -5.565751852454337e-19,
+            "abs_mean_impact": 0.002362467364787933,
+            "max_impact": 0.0432605703683784,
+            "std_impact": 0.004825742827040087
+        },
+        "loan_intent_MEDICAL": {
+            "mean_impact": -1.7221467307759753e-18,
+            "abs_mean_impact": 0.020262621421625653,
+            "max_impact": 0.12583599509331556,
+            "std_impact": 0.03037607818853351
+        },
+        "loan_intent_PERSONAL": {
+            "mean_impact": -9.074772183703672e-20,
+            "abs_mean_impact": 0.005667214542182592,
+            "max_impact": 0.035733621867440245,
+            "std_impact": 0.00808383330253976
+        },
+        "loan_intent_VENTURE": {
+            "mean_impact": 3.7650004641731626e-18,
+            "abs_mean_impact": 0.010360021297160868,
+            "max_impact": 0.067269725381526,
+            "std_impact": 0.013538795077361476
+        },
+        "loan_grade_A": {
+            "mean_impact": -6.106226635438361e-18,
+            "abs_mean_impact": 0.03146432490125267,
+            "max_impact": 0.07734212691456921,
+            "std_impact": 0.03300374781315342
+        },
+        "loan_grade_B": {
+            "mean_impact": -8.659739592076221e-18,
+            "abs_mean_impact": 0.02387077997216323,
+            "max_impact": 0.04597265809490263,
+            "std_impact": 0.02496939052961597
+        },
+        "loan_grade_C": {
+            "mean_impact": 9.520162436160718e-18,
+            "abs_mean_impact": 0.032593988449661195,
+            "max_impact": 0.09216594878486366,
+            "std_impact": 0.03806593958986231
+        },
+        "loan_grade_D": {
+            "mean_impact": 1.6444311190522143e-17,
+            "abs_mean_impact": 0.02548883016797812,
+            "max_impact": 0.35289145927216137,
+            "std_impact": 0.048819637787602205
+        },
+        "loan_grade_E": {
+            "mean_impact": 3.130135040052551e-17,
+            "abs_mean_impact": 0.05344823490231104,
+            "max_impact": 0.2808028759087977,
+            "std_impact": 0.09205984423230536
+        },
+        "loan_grade_F": {
+            "mean_impact": -8.522696437474054e-18,
+            "abs_mean_impact": 0.028669176131290698,
+            "max_impact": 0.240481160938992,
+            "std_impact": 0.06417898526034502
+        },
+        "loan_grade_G": {
+            "mean_impact": -4.808653475407709e-18,
+            "abs_mean_impact": 0.04140409505817892,
+            "max_impact": 0.2934139836635027,
+            "std_impact": 0.09318580528091908
+        },
+        "age": {
+            "mean_impact": 0.0,
+            "abs_mean_impact": 0.0,
+            "max_impact": 0.0,
+            "std_impact": 0.0
+        },
+        "gender": {
+            "mean_impact": 0.0,
+            "abs_mean_impact": 0.0,
+            "max_impact": 0.0,
+            "std_impact": 0.0
+        },
+        "race": {
+            "mean_impact": 0.0,
+            "abs_mean_impact": 0.0,
+            "max_impact": 0.0,
+            "std_impact": 0.0
+        }
+    },
+    "protected_attribute_influence": {
+        "age": 0.0,
+        "gender": 0.0,
+        "race": 0.0
+    }
+}

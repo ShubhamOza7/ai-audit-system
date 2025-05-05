@@ -1,0 +1,750 @@
+2025-02-16 21:52:31,269 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/loan_default_model.pkl
+2025-02-16 21:52:31,270 - ERROR - Error loading model from /Users/mac/Desktop/ai_audit_system/model/loan_default_model.pkl: invalid load key, '\x10'.
+2025-02-16 23:00:55,815 - INFO - Loading model from test_models/test_model.pkl
+2025-02-16 23:00:55,817 - INFO - Metadata saved to audit_logs/model_metadata_20250216_230055.json
+2025-02-16 23:00:55,817 - INFO - Successfully loaded model: 20250216_230055
+2025-02-16 23:00:55,817 - INFO - Generating 1000 synthetic loan records
+2025-02-16 23:00:55,825 - INFO - Injected 100 edge cases into the dataset
+2025-02-16 23:00:55,825 - INFO - Synthetic data generation completed
+2025-02-16 23:00:55,825 - INFO - Starting model testing process
+2025-02-16 23:00:55,826 - WARNING - Some groups in age have less than 1% representation
+2025-02-16 23:00:55,829 - INFO - Generating predictions
+2025-02-16 23:00:55,839 - INFO - Model testing completed successfully
+2025-02-16 23:00:55,839 - INFO - Starting fairness evaluation
+2025-02-16 23:00:55,840 - INFO - Evaluating fairness for gender
+2025-02-16 23:03:36,199 - INFO - Loading model from test_models/test_model.pkl
+2025-02-16 23:03:36,202 - INFO - Metadata saved to audit_logs/model_metadata_20250216_230336.json
+2025-02-16 23:03:36,202 - INFO - Successfully loaded model: 20250216_230336
+2025-02-16 23:03:36,202 - INFO - Generating 1000 synthetic loan records
+2025-02-16 23:03:36,209 - INFO - Injected 100 edge cases into the dataset
+2025-02-16 23:03:36,209 - INFO - Synthetic data generation completed
+2025-02-16 23:03:36,210 - INFO - Starting model testing process
+2025-02-16 23:03:36,211 - WARNING - Some groups in age have less than 1% representation
+2025-02-16 23:03:36,213 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-16 23:03:36,213 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-16 23:03:36,214 - INFO - Generating predictions
+2025-02-16 23:03:36,228 - INFO - Model testing completed successfully
+2025-02-16 23:03:36,229 - INFO - Starting fairness evaluation
+2025-02-16 23:03:36,229 - INFO - Evaluating fairness for gender
+2025-02-16 23:04:32,622 - INFO - Loading model from test_models/test_model.pkl
+2025-02-16 23:04:32,624 - INFO - Metadata saved to audit_logs/model_metadata_20250216_230432.json
+2025-02-16 23:04:32,625 - INFO - Successfully loaded model: 20250216_230432
+2025-02-16 23:04:32,625 - INFO - Generating 1000 synthetic loan records
+2025-02-16 23:04:32,632 - INFO - Injected 100 edge cases into the dataset
+2025-02-16 23:04:32,632 - INFO - Synthetic data generation completed
+2025-02-16 23:04:32,632 - INFO - Starting model testing process
+2025-02-16 23:04:32,633 - WARNING - Some groups in age have less than 1% representation
+2025-02-16 23:04:32,635 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-16 23:04:32,635 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-16 23:04:32,637 - INFO - Generating predictions
+2025-02-16 23:04:32,647 - INFO - Model testing completed successfully
+2025-02-16 23:04:32,647 - INFO - Starting fairness evaluation
+2025-02-16 23:04:32,647 - INFO - Evaluating fairness for gender
+2025-02-16 23:06:32,973 - INFO - Loading model from test_models/test_model.pkl
+2025-02-16 23:06:32,975 - INFO - Metadata saved to audit_logs/model_metadata_20250216_230632.json
+2025-02-16 23:06:32,975 - INFO - Successfully loaded model: 20250216_230632
+2025-02-16 23:06:32,975 - INFO - Generating 1000 synthetic loan records
+2025-02-16 23:06:32,981 - INFO - Injected 100 edge cases into the dataset
+2025-02-16 23:06:32,981 - INFO - Synthetic data generation completed
+2025-02-16 23:06:32,981 - INFO - Starting model testing process
+2025-02-16 23:06:32,983 - WARNING - Some groups in age have less than 1% representation
+2025-02-16 23:06:32,984 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-16 23:06:32,985 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-16 23:06:32,986 - INFO - Generating predictions
+2025-02-16 23:06:32,996 - INFO - Model testing completed successfully
+2025-02-16 23:06:32,996 - INFO - Starting fairness evaluation
+2025-02-16 23:06:32,997 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-16 23:06:32,997 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-16 23:06:32,997 - INFO - Evaluating fairness for gender
+2025-02-22 12:30:38,484 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:30:38,489 - INFO - Metadata saved to audit_logs/model_metadata_20250222_123038.json
+2025-02-22 12:30:38,489 - INFO - Successfully loaded model: 20250222_123038
+2025-02-22 12:30:38,489 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:30:38,499 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:30:38,499 - INFO - Synthetic data generation completed
+2025-02-22 12:30:38,499 - INFO - Starting model testing process
+2025-02-22 12:30:38,501 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:30:38,502 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:30:38,502 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:30:38,504 - INFO - Generating predictions
+2025-02-22 12:30:38,511 - INFO - Model testing completed successfully
+2025-02-22 12:30:38,511 - INFO - Starting fairness evaluation
+2025-02-22 12:30:38,512 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:30:38,512 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:30:38,512 - INFO - Evaluating fairness for gender
+2025-02-22 12:31:49,546 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:31:49,548 - INFO - Metadata saved to audit_logs/model_metadata_20250222_123149.json
+2025-02-22 12:31:49,549 - INFO - Successfully loaded model: 20250222_123149
+2025-02-22 12:31:49,549 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:31:49,561 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:31:49,561 - INFO - Synthetic data generation completed
+2025-02-22 12:31:49,561 - INFO - Starting model testing process
+2025-02-22 12:31:49,562 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:31:49,564 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:31:49,564 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:31:49,566 - INFO - Generating predictions
+2025-02-22 12:31:49,574 - INFO - Model testing completed successfully
+2025-02-22 12:31:49,574 - INFO - Starting fairness evaluation
+2025-02-22 12:31:49,575 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:31:49,575 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:31:49,575 - INFO - Evaluating fairness for gender
+2025-02-22 12:32:46,273 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:32:46,276 - INFO - Metadata saved to audit_logs/model_metadata_20250222_123246.json
+2025-02-22 12:32:46,276 - INFO - Successfully loaded model: 20250222_123246
+2025-02-22 12:32:46,276 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:32:46,282 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:32:46,282 - INFO - Synthetic data generation completed
+2025-02-22 12:32:46,283 - INFO - Starting model testing process
+2025-02-22 12:32:46,284 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:32:46,285 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:32:46,285 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:32:46,286 - INFO - Generating predictions
+2025-02-22 12:32:46,293 - INFO - Model testing completed successfully
+2025-02-22 12:32:46,293 - INFO - Starting fairness evaluation
+2025-02-22 12:32:46,293 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:32:46,294 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:32:46,294 - INFO - Evaluating fairness for gender
+2025-02-22 12:33:41,819 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:33:41,821 - INFO - Metadata saved to audit_logs/model_metadata_20250222_123341.json
+2025-02-22 12:33:41,821 - INFO - Successfully loaded model: 20250222_123341
+2025-02-22 12:33:41,821 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:33:41,828 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:33:41,828 - INFO - Synthetic data generation completed
+2025-02-22 12:33:41,828 - INFO - Starting model testing process
+2025-02-22 12:33:41,829 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:33:41,830 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:33:41,831 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:33:41,832 - INFO - Generating predictions
+2025-02-22 12:33:41,839 - INFO - Model testing completed successfully
+2025-02-22 12:38:25,253 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:38:25,254 - INFO - Metadata saved to audit_logs/model_metadata_20250222_123825.json
+2025-02-22 12:38:25,254 - INFO - Successfully loaded model: 20250222_123825
+2025-02-22 12:38:25,254 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:38:25,263 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:38:25,263 - INFO - Synthetic data generation completed
+2025-02-22 12:38:25,264 - INFO - Starting model testing process
+2025-02-22 12:38:25,265 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:38:25,266 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:38:25,266 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:38:25,268 - INFO - Generating predictions
+2025-02-22 12:38:25,276 - INFO - Model testing completed successfully
+2025-02-22 12:38:25,276 - INFO - Starting fairness evaluation
+2025-02-22 12:38:25,276 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:38:25,277 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:38:25,277 - INFO - Evaluating fairness for gender
+2025-02-22 12:38:25,279 - INFO - Evaluating fairness for race
+2025-02-22 12:38:25,281 - INFO - Evaluating fairness for age
+2025-02-22 12:38:25,284 - INFO - Fairness evaluation completed
+2025-02-22 12:38:25,284 - INFO - Starting model explanation process
+2025-02-22 12:38:25,286 - ERROR - Error during model explanation: could not convert string to float: 'M'
+2025-02-22 12:40:30,027 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:40:30,029 - INFO - Metadata saved to audit_logs/model_metadata_20250222_124030.json
+2025-02-22 12:40:30,029 - INFO - Successfully loaded model: 20250222_124030
+2025-02-22 12:40:30,029 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:40:30,035 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:40:30,035 - INFO - Synthetic data generation completed
+2025-02-22 12:40:30,035 - INFO - Starting model testing process
+2025-02-22 12:40:30,036 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:40:30,038 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:40:30,038 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:40:30,039 - INFO - Generating predictions
+2025-02-22 12:40:30,046 - INFO - Model testing completed successfully
+2025-02-22 12:40:30,046 - INFO - Starting fairness evaluation
+2025-02-22 12:40:30,047 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:40:30,047 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:40:30,047 - INFO - Evaluating fairness for gender
+2025-02-22 12:40:30,049 - INFO - Evaluating fairness for race
+2025-02-22 12:40:30,051 - INFO - Evaluating fairness for age
+2025-02-22 12:40:30,054 - INFO - Fairness evaluation completed
+2025-02-22 12:40:30,054 - INFO - Starting model explanation process
+2025-02-22 12:40:30,054 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:40:30,054 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:40:30,360 - ERROR - Error during model explanation: only length-1 arrays can be converted to Python scalars
+2025-02-22 12:44:22,663 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:44:22,665 - INFO - Metadata saved to audit_logs/model_metadata_20250222_124422.json
+2025-02-22 12:44:22,665 - INFO - Successfully loaded model: 20250222_124422
+2025-02-22 12:44:22,665 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:44:22,672 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:44:22,672 - INFO - Synthetic data generation completed
+2025-02-22 12:44:22,672 - INFO - Starting model testing process
+2025-02-22 12:44:22,674 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:44:22,675 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:44:22,675 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:44:22,676 - INFO - Generating predictions
+2025-02-22 12:44:22,683 - INFO - Model testing completed successfully
+2025-02-22 12:44:22,683 - INFO - Starting fairness evaluation
+2025-02-22 12:44:22,683 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:44:22,684 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:44:22,684 - INFO - Evaluating fairness for gender
+2025-02-22 12:44:22,686 - INFO - Evaluating fairness for race
+2025-02-22 12:44:22,687 - INFO - Evaluating fairness for age
+2025-02-22 12:44:22,690 - INFO - Fairness evaluation completed
+2025-02-22 12:44:22,690 - INFO - Starting model explanation process
+2025-02-22 12:44:22,690 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:44:22,691 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:44:23,001 - ERROR - Error calculating feature importance: can only convert an array of size 1 to a Python scalar
+2025-02-22 12:44:23,001 - ERROR - Error generating explanations: can only convert an array of size 1 to a Python scalar
+2025-02-22 12:44:23,001 - ERROR - Error during model explanation: can only convert an array of size 1 to a Python scalar
+2025-02-22 12:46:56,214 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:46:56,216 - INFO - Metadata saved to audit_logs/model_metadata_20250222_124656.json
+2025-02-22 12:46:56,216 - INFO - Successfully loaded model: 20250222_124656
+2025-02-22 12:46:56,216 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:46:56,222 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:46:56,222 - INFO - Synthetic data generation completed
+2025-02-22 12:46:56,222 - INFO - Starting model testing process
+2025-02-22 12:46:56,223 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:46:56,224 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:46:56,224 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:46:56,225 - INFO - Generating predictions
+2025-02-22 12:46:56,232 - INFO - Model testing completed successfully
+2025-02-22 12:46:56,232 - INFO - Starting fairness evaluation
+2025-02-22 12:46:56,232 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:46:56,233 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:46:56,233 - INFO - Evaluating fairness for gender
+2025-02-22 12:46:56,234 - INFO - Evaluating fairness for race
+2025-02-22 12:46:56,236 - INFO - Evaluating fairness for age
+2025-02-22 12:46:56,239 - INFO - Fairness evaluation completed
+2025-02-22 12:46:56,239 - INFO - Starting model explanation process
+2025-02-22 12:46:56,239 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:46:56,239 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:46:56,545 - ERROR - Error generating explanations: 'ModelExplainer' object has no attribute '_calculate_feature_importance'
+2025-02-22 12:46:56,545 - ERROR - Error during model explanation: 'ModelExplainer' object has no attribute '_calculate_feature_importance'
+2025-02-22 12:48:16,493 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:48:16,496 - INFO - Metadata saved to audit_logs/model_metadata_20250222_124816.json
+2025-02-22 12:48:16,496 - INFO - Successfully loaded model: 20250222_124816
+2025-02-22 12:48:16,496 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:48:16,506 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:48:16,506 - INFO - Synthetic data generation completed
+2025-02-22 12:48:16,506 - INFO - Starting model testing process
+2025-02-22 12:48:16,507 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:48:16,508 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:48:16,508 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:48:16,509 - INFO - Generating predictions
+2025-02-22 12:48:16,516 - INFO - Model testing completed successfully
+2025-02-22 12:48:16,516 - INFO - Starting fairness evaluation
+2025-02-22 12:48:16,517 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:48:16,517 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:48:16,517 - INFO - Evaluating fairness for gender
+2025-02-22 12:48:16,519 - INFO - Evaluating fairness for race
+2025-02-22 12:48:16,521 - INFO - Evaluating fairness for age
+2025-02-22 12:48:16,523 - INFO - Fairness evaluation completed
+2025-02-22 12:48:16,523 - INFO - Starting model explanation process
+2025-02-22 12:48:16,524 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:48:16,524 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:48:16,834 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_124816.json
+2025-02-22 12:48:16,839 - INFO - Starting governance report generation
+2025-02-22 12:48:16,839 - ERROR - Error generating governance report: 'FairnessMetrics' object is not subscriptable
+2025-02-22 12:52:04,596 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:52:04,602 - INFO - Metadata saved to audit_logs/model_metadata_20250222_125204.json
+2025-02-22 12:52:04,602 - INFO - Successfully loaded model: 20250222_125204
+2025-02-22 12:52:04,602 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:52:04,645 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:52:04,645 - INFO - Synthetic data generation completed
+2025-02-22 12:52:04,645 - INFO - Starting model testing process
+2025-02-22 12:52:04,648 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:52:04,650 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:52:04,651 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:52:04,659 - INFO - Generating predictions
+2025-02-22 12:52:04,680 - INFO - Model testing completed successfully
+2025-02-22 12:52:04,680 - INFO - Starting fairness evaluation
+2025-02-22 12:52:04,681 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:52:04,681 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:52:04,681 - INFO - Evaluating fairness for gender
+2025-02-22 12:52:04,683 - INFO - Evaluating fairness for race
+2025-02-22 12:52:04,685 - INFO - Evaluating fairness for age
+2025-02-22 12:52:04,691 - INFO - Fairness evaluation completed
+2025-02-22 12:52:04,691 - INFO - Starting model explanation process
+2025-02-22 12:52:04,692 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:52:04,692 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:52:04,998 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_125204.json
+2025-02-22 12:52:05,002 - INFO - Starting governance report generation
+2025-02-22 12:52:05,002 - ERROR - Error generating governance report: argument of type 'ExplanationResult' is not iterable
+2025-02-22 12:54:01,516 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:54:01,518 - INFO - Metadata saved to audit_logs/model_metadata_20250222_125401.json
+2025-02-22 12:54:01,518 - INFO - Successfully loaded model: 20250222_125401
+2025-02-22 12:54:01,518 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:54:01,525 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:54:01,525 - INFO - Synthetic data generation completed
+2025-02-22 12:54:01,525 - INFO - Starting model testing process
+2025-02-22 12:54:01,526 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:54:01,527 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:54:01,528 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:54:01,529 - INFO - Generating predictions
+2025-02-22 12:54:01,537 - INFO - Model testing completed successfully
+2025-02-22 12:54:01,537 - INFO - Starting fairness evaluation
+2025-02-22 12:54:01,537 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:54:01,538 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:54:01,538 - INFO - Evaluating fairness for gender
+2025-02-22 12:54:01,540 - INFO - Evaluating fairness for race
+2025-02-22 12:54:01,541 - INFO - Evaluating fairness for age
+2025-02-22 12:54:01,544 - INFO - Fairness evaluation completed
+2025-02-22 12:54:01,544 - INFO - Starting model explanation process
+2025-02-22 12:54:01,545 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:54:01,545 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:54:01,862 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_125401.json
+2025-02-22 12:54:01,867 - INFO - Starting governance report generation
+2025-02-22 12:54:01,867 - ERROR - Error generating governance report: 'ModelMetadata' object has no attribute 'get'
+2025-02-22 12:57:26,528 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 12:57:26,532 - INFO - Metadata saved to audit_logs/model_metadata_20250222_125726.json
+2025-02-22 12:57:26,532 - INFO - Successfully loaded model: 20250222_125726
+2025-02-22 12:57:26,532 - INFO - Generating 1000 synthetic loan records
+2025-02-22 12:57:26,543 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 12:57:26,543 - INFO - Synthetic data generation completed
+2025-02-22 12:57:26,543 - INFO - Starting model testing process
+2025-02-22 12:57:26,544 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 12:57:26,545 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:57:26,545 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:57:26,547 - INFO - Generating predictions
+2025-02-22 12:57:26,555 - INFO - Model testing completed successfully
+2025-02-22 12:57:26,555 - INFO - Starting fairness evaluation
+2025-02-22 12:57:26,555 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:57:26,556 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:57:26,556 - INFO - Evaluating fairness for gender
+2025-02-22 12:57:26,558 - INFO - Evaluating fairness for race
+2025-02-22 12:57:26,560 - INFO - Evaluating fairness for age
+2025-02-22 12:57:26,564 - INFO - Fairness evaluation completed
+2025-02-22 12:57:26,564 - INFO - Starting model explanation process
+2025-02-22 12:57:26,565 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 12:57:26,565 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 12:57:26,887 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_125726.json
+2025-02-22 12:57:26,891 - INFO - Starting governance report generation
+2025-02-22 12:57:26,892 - INFO - Report artifacts saved to governance_reports
+2025-02-22 13:01:30,471 - INFO - Loading model from test_models/test_model.pkl
+2025-02-22 13:01:30,475 - INFO - Metadata saved to audit_logs/model_metadata_20250222_130130.json
+2025-02-22 13:01:30,475 - INFO - Successfully loaded model: 20250222_130130
+2025-02-22 13:01:30,475 - INFO - Generating 1000 synthetic loan records
+2025-02-22 13:01:30,484 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 13:01:30,484 - INFO - Synthetic data generation completed
+2025-02-22 13:01:30,484 - INFO - Starting model testing process
+2025-02-22 13:01:30,485 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 13:01:30,486 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:01:30,486 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:01:30,487 - INFO - Generating predictions
+2025-02-22 13:01:30,495 - INFO - Model testing completed successfully
+2025-02-22 13:01:30,496 - INFO - Starting fairness evaluation
+2025-02-22 13:01:30,496 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:01:30,496 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:01:30,496 - INFO - Evaluating fairness for gender
+2025-02-22 13:01:30,498 - INFO - Evaluating fairness for race
+2025-02-22 13:01:30,500 - INFO - Evaluating fairness for age
+2025-02-22 13:01:30,502 - INFO - Fairness evaluation completed
+2025-02-22 13:01:30,503 - INFO - Starting model explanation process
+2025-02-22 13:01:30,503 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:01:30,503 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:01:30,805 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_130130.json
+2025-02-22 13:01:30,809 - INFO - Starting governance report generation
+2025-02-22 13:01:30,810 - INFO - Report artifacts saved to governance_reports
+2025-02-22 13:23:52,520 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/loan_default_model.pkl
+2025-02-22 13:23:52,523 - INFO - Metadata saved to audit_logs/model_metadata_20250222_132352.json
+2025-02-22 13:23:52,523 - INFO - Successfully loaded model: 20250222_132352
+2025-02-22 13:23:52,523 - INFO - Generating 1000 synthetic loan records
+2025-02-22 13:23:52,532 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 13:23:52,532 - INFO - Synthetic data generation completed
+2025-02-22 13:23:52,532 - INFO - Starting model testing process
+2025-02-22 13:23:52,533 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 13:23:52,534 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:23:52,535 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:23:52,536 - INFO - Generating predictions
+2025-02-22 13:23:52,543 - INFO - Model testing completed successfully
+2025-02-22 13:23:52,543 - INFO - Starting fairness evaluation
+2025-02-22 13:23:52,544 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:23:52,544 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:23:52,544 - INFO - Evaluating fairness for gender
+2025-02-22 13:23:52,546 - INFO - Evaluating fairness for race
+2025-02-22 13:23:52,548 - INFO - Evaluating fairness for age
+2025-02-22 13:23:52,550 - INFO - Fairness evaluation completed
+2025-02-22 13:23:52,550 - INFO - Starting model explanation process
+2025-02-22 13:23:52,551 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:23:52,551 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:23:52,854 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_132352.json
+2025-02-22 13:23:52,858 - INFO - Starting governance report generation
+2025-02-22 13:23:52,859 - INFO - Report artifacts saved to governance_reports
+2025-02-22 13:32:54,599 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/loan_default_model.pkl
+2025-02-22 13:32:54,602 - INFO - Metadata saved to audit_logs/model_metadata_20250222_133254.json
+2025-02-22 13:32:54,602 - INFO - Successfully loaded model: 20250222_133254
+2025-02-22 13:32:54,603 - INFO - Generating 1000 synthetic loan records
+2025-02-22 13:32:54,612 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 13:32:54,612 - INFO - Synthetic data generation completed
+2025-02-22 13:32:54,612 - INFO - Starting model testing process
+2025-02-22 13:32:54,614 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 13:32:54,615 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:32:54,615 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:32:54,617 - INFO - Generating predictions
+2025-02-22 13:32:54,624 - INFO - Model testing completed successfully
+2025-02-22 13:32:54,624 - INFO - Starting fairness evaluation
+2025-02-22 13:32:54,624 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:32:54,625 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:32:54,625 - INFO - Evaluating fairness for gender
+2025-02-22 13:32:54,627 - INFO - Evaluating fairness for race
+2025-02-22 13:32:54,629 - INFO - Evaluating fairness for age
+2025-02-22 13:32:54,631 - INFO - Fairness evaluation completed
+2025-02-22 13:32:54,631 - INFO - Starting model explanation process
+2025-02-22 13:32:54,632 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:32:54,632 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:32:54,934 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_133254.json
+2025-02-22 13:32:54,938 - INFO - Starting governance report generation
+2025-02-22 13:32:54,939 - INFO - Report artifacts saved to governance_reports
+2025-02-22 13:36:55,891 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/loan_default_model.pkl
+2025-02-22 13:36:55,895 - INFO - Metadata saved to audit_logs/model_metadata_20250222_133655.json
+2025-02-22 13:36:55,895 - INFO - Successfully loaded model: 20250222_133655
+2025-02-22 13:36:55,895 - INFO - Generating 1000 synthetic loan records
+2025-02-22 13:36:55,903 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 13:36:55,903 - INFO - Synthetic data generation completed
+2025-02-22 13:36:55,903 - INFO - Starting model testing process
+2025-02-22 13:36:55,904 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 13:36:55,906 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:36:55,906 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:36:55,907 - INFO - Generating predictions
+2025-02-22 13:36:55,915 - INFO - Model testing completed successfully
+2025-02-22 13:36:55,915 - INFO - Starting fairness evaluation
+2025-02-22 13:36:55,916 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:36:55,916 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:36:55,916 - INFO - Evaluating fairness for gender
+2025-02-22 13:36:55,919 - INFO - Evaluating fairness for race
+2025-02-22 13:36:55,920 - INFO - Evaluating fairness for age
+2025-02-22 13:36:55,923 - INFO - Fairness evaluation completed
+2025-02-22 13:36:55,923 - INFO - Starting model explanation process
+2025-02-22 13:36:55,924 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:36:55,924 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:36:56,397 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_133656.json
+2025-02-22 13:36:56,407 - INFO - Starting governance report generation
+2025-02-22 13:36:56,413 - INFO - Report artifacts saved to governance_reports
+2025-02-22 13:40:11,184 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 13:40:11,189 - INFO - Metadata saved to audit_logs/model_metadata_20250222_134011.json
+2025-02-22 13:40:11,189 - INFO - Successfully loaded model: 20250222_134011
+2025-02-22 13:40:11,189 - INFO - Generating 1000 synthetic loan records
+2025-02-22 13:40:11,199 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 13:40:11,199 - INFO - Synthetic data generation completed
+2025-02-22 13:40:11,199 - INFO - Starting model testing process
+2025-02-22 13:40:11,200 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 13:40:11,201 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 13:40:11,202 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 13:40:11,203 - INFO - Generating predictions
+2025-02-22 13:40:11,203 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:00:57,849 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:00:57,857 - INFO - Metadata saved to audit_logs/model_metadata_20250222_140057.json
+2025-02-22 14:00:57,857 - INFO - Successfully loaded model: 20250222_140057
+2025-02-22 14:00:57,857 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:00:57,872 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:00:57,872 - INFO - Synthetic data generation completed
+2025-02-22 14:00:57,872 - INFO - Starting model testing process
+2025-02-22 14:00:57,873 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:00:57,875 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:00:57,875 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:00:57,877 - INFO - Generating predictions
+2025-02-22 14:00:57,878 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:03:34,781 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:03:34,787 - INFO - Metadata saved to audit_logs/model_metadata_20250222_140334.json
+2025-02-22 14:03:34,787 - INFO - Successfully loaded model: 20250222_140334
+2025-02-22 14:03:34,787 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:03:34,797 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:03:34,797 - INFO - Synthetic data generation completed
+2025-02-22 14:03:34,797 - INFO - Starting model testing process
+2025-02-22 14:03:34,798 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:03:34,800 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:03:34,800 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:03:34,801 - INFO - Generating predictions
+2025-02-22 14:03:34,801 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:04:51,896 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:04:51,903 - INFO - Metadata saved to audit_logs/model_metadata_20250222_140451.json
+2025-02-22 14:04:51,903 - INFO - Successfully loaded model: 20250222_140451
+2025-02-22 14:04:51,903 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:04:51,916 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:04:51,916 - INFO - Synthetic data generation completed
+2025-02-22 14:04:51,917 - INFO - Starting model testing process
+2025-02-22 14:04:51,918 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:04:51,920 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:04:51,920 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:04:51,921 - INFO - Generating predictions
+2025-02-22 14:04:51,921 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:05:32,953 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:05:32,962 - INFO - Metadata saved to audit_logs/model_metadata_20250222_140532.json
+2025-02-22 14:05:32,962 - INFO - Successfully loaded model: 20250222_140532
+2025-02-22 14:05:32,962 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:05:32,970 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:05:32,970 - INFO - Synthetic data generation completed
+2025-02-22 14:05:32,970 - INFO - Starting model testing process
+2025-02-22 14:05:32,971 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:05:32,973 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:05:32,973 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:05:32,974 - INFO - Generating predictions
+2025-02-22 14:05:32,974 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:06:29,293 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:06:29,301 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:06:29,301 - INFO - Metadata saved to audit_logs/model_metadata_20250222_140629.json
+2025-02-22 14:06:29,301 - INFO - Successfully loaded model: 20250222_140629
+2025-02-22 14:06:29,301 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:06:29,309 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:06:29,310 - INFO - Synthetic data generation completed
+2025-02-22 14:06:29,310 - INFO - Starting model testing process
+2025-02-22 14:06:29,310 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:06:29,312 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:06:29,312 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:06:29,313 - INFO - Generating predictions
+2025-02-22 14:06:29,313 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:07:29,373 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:07:29,382 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:07:29,383 - INFO - Metadata saved to audit_logs/model_metadata_20250222_140729.json
+2025-02-22 14:07:29,383 - INFO - Successfully loaded model: 20250222_140729
+2025-02-22 14:07:29,383 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:07:29,397 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:07:29,397 - INFO - Synthetic data generation completed
+2025-02-22 14:07:29,397 - INFO - Starting model testing process
+2025-02-22 14:07:29,398 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:07:29,399 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:07:29,400 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:07:29,401 - INFO - Generating predictions
+2025-02-22 14:07:29,401 - ERROR - Error during model testing: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income
+- employment_length
+- loan_amount
+Feature names seen at fit time, yet now missing:
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade_A
+- loan_grade_B
+- loan_grade_C
+- ...
+
+2025-02-22 14:12:56,265 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:12:56,274 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:12:56,275 - INFO - Metadata saved to audit_logs/model_metadata_20250222_141256.json
+2025-02-22 14:12:56,275 - INFO - Successfully loaded model: 20250222_141256
+2025-02-22 14:12:56,275 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:12:56,506 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:12:56,506 - INFO - Synthetic data generation completed
+2025-02-22 14:12:56,507 - INFO - Starting model testing process
+2025-02-22 14:13:55,348 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:13:55,357 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:13:55,358 - INFO - Metadata saved to audit_logs/model_metadata_20250222_141355.json
+2025-02-22 14:13:55,358 - INFO - Successfully loaded model: 20250222_141355
+2025-02-22 14:13:55,358 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:15:27,959 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:15:27,971 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:15:27,972 - INFO - Metadata saved to audit_logs/model_metadata_20250222_141527.json
+2025-02-22 14:15:27,972 - INFO - Successfully loaded model: 20250222_141527
+2025-02-22 14:15:27,972 - INFO - Generating 1000 synthetic loan records
+2025-02-22 14:15:28,307 - INFO - Injected 100 edge cases into the dataset
+2025-02-22 14:15:28,307 - INFO - Synthetic data generation completed
+2025-02-22 14:15:28,309 - INFO - Starting model testing process
+2025-02-22 14:15:28,311 - WARNING - Some groups in age have less than 1% representation
+2025-02-22 14:15:28,313 - INFO - Encoding mapping for cb_person_default_on_file: {'N': np.int64(0), 'Y': np.int64(1)}
+2025-02-22 14:15:28,313 - INFO - Encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:15:28,314 - INFO - Encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:15:28,314 - INFO - Generating predictions
+2025-02-22 14:15:28,401 - WARNING - Large prediction disparity detected across age groups: 0.35
+2025-02-22 14:15:28,402 - INFO - Model testing completed successfully
+2025-02-22 14:15:28,403 - INFO - Starting fairness evaluation
+2025-02-22 14:15:28,404 - INFO - Fairness encoding mapping for cb_person_default_on_file: {'N': np.int64(0), 'Y': np.int64(1)}
+2025-02-22 14:15:28,405 - INFO - Fairness encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:15:28,406 - INFO - Fairness encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:15:28,406 - INFO - Evaluating fairness for gender
+2025-02-22 14:15:28,411 - INFO - Evaluating fairness for race
+2025-02-22 14:15:28,416 - INFO - Evaluating fairness for age
+2025-02-22 14:15:28,422 - INFO - Fairness evaluation completed
+2025-02-22 14:15:28,422 - INFO - Starting model explanation process
+2025-02-22 14:15:28,423 - INFO - Explanation encoding mapping for cb_person_default_on_file: {'N': np.int64(0), 'Y': np.int64(1)}
+2025-02-22 14:15:28,424 - INFO - Explanation encoding mapping for gender: {'F': np.int64(0), 'M': np.int64(1), 'Other': np.int64(2)}
+2025-02-22 14:15:28,424 - INFO - Explanation encoding mapping for race: {'Asian': np.int64(0), 'Black': np.int64(1), 'Hispanic': np.int64(2), 'Other': np.int64(3), 'White': np.int64(4)}
+2025-02-22 14:15:33,482 - INFO - Explanation artifacts saved to explanation_outputs/explanation_20250222_141533.json
+2025-02-22 14:15:33,504 - INFO - Starting governance report generation
+2025-02-22 14:15:33,506 - INFO - Report artifacts saved to governance_reports
+2025-02-22 14:21:38,401 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:21:38,413 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:21:38,414 - INFO - Metadata saved to audit_logs/model_metadata_20250222_142138.json
+2025-02-22 14:21:38,414 - INFO - Successfully loaded model: 20250222_142138
+2025-02-22 14:22:26,328 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:22:26,342 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:22:26,343 - INFO - Metadata saved to audit_logs/model_metadata_20250222_142226.json
+2025-02-22 14:22:26,343 - INFO - Successfully loaded model: 20250222_142226
+2025-02-22 14:23:18,979 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:23:18,993 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:23:18,993 - INFO - Metadata saved to audit_logs/model_metadata_20250222_142318.json
+2025-02-22 14:23:18,994 - INFO - Successfully loaded model: 20250222_142318
+2025-02-22 14:25:39,365 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:25:39,378 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:25:39,379 - INFO - Metadata saved to audit_logs/model_metadata_20250222_142539.json
+2025-02-22 14:25:39,379 - INFO - Successfully loaded model: 20250222_142539
+2025-02-22 14:37:40,983 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:37:40,993 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:37:40,994 - INFO - Metadata saved to audit_logs/model_metadata_20250222_143740.json
+2025-02-22 14:37:40,994 - INFO - Successfully loaded model: 20250222_143740
+2025-02-22 14:38:31,841 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:38:31,852 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:38:31,852 - INFO - Metadata saved to audit_logs/model_metadata_20250222_143831.json
+2025-02-22 14:38:31,852 - INFO - Successfully loaded model: 20250222_143831
+2025-02-22 14:40:01,778 - INFO - Loading model from /Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl
+2025-02-22 14:40:01,794 - INFO - Model expects these features: ['person_age' 'person_income' 'person_emp_length' 'loan_amnt'
+ 'loan_percent_income' 'cb_person_default_on_file'
+ 'person_home_ownership_OTHER' 'person_home_ownership_OWN'
+ 'person_home_ownership_RENT' 'loan_intent_DEBTCONSOLIDATION'
+ 'loan_intent_EDUCATION' 'loan_intent_HOMEIMPROVEMENT'
+ 'loan_intent_MEDICAL' 'loan_intent_PERSONAL' 'loan_intent_VENTURE'
+ 'loan_grade_A' 'loan_grade_B' 'loan_grade_C' 'loan_grade_D'
+ 'loan_grade_E' 'loan_grade_F' 'loan_grade_G']
+2025-02-22 14:40:01,794 - INFO - Metadata saved to audit_logs/model_metadata_20250222_144001.json
+2025-02-22 14:40:01,794 - INFO - Successfully loaded model: 20250222_144001

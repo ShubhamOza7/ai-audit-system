@@ -1,0 +1,561 @@
+{
+  "model_id": "ModelMetadata(timestamp='2025-02-22T14:46:29.529183', version='20250222_144629', source_path='/Users/mac/Desktop/ai_audit_system/model/credit_random_model.pkl', additional_info={'file_size': 3771336, 'last_modified': '2025-02-15T04:54:06'})",
+  "timestamp": "20250222_144629",
+  "dataset_size": 1000,
+  "fairness_metrics": {
+    "age": {
+      "40.0": {
+        "group_size": 15,
+        "positive_rate": 0.6,
+        "group_percentage": 1.5
+      },
+      "31.0": {
+        "group_size": 22,
+        "positive_rate": 0.6363636363636364,
+        "group_percentage": 2.1999999999999997
+      },
+      "88.5": {
+        "group_size": 4,
+        "positive_rate": 0.75,
+        "group_percentage": 0.4
+      },
+      "43.5": {
+        "group_size": 3,
+        "positive_rate": 0.0,
+        "group_percentage": 0.3
+      },
+      "68.0": {
+        "group_size": 17,
+        "positive_rate": 0.7647058823529411,
+        "group_percentage": 1.7000000000000002
+      },
+      "49.0": {
+        "group_size": 11,
+        "positive_rate": 0.6363636363636364,
+        "group_percentage": 1.0999999999999999
+      },
+      "32.0": {
+        "group_size": 16,
+        "positive_rate": 0.75,
+        "group_percentage": 1.6
+      },
+      "39.0": {
+        "group_size": 21,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 2.1
+      },
+      "34.0": {
+        "group_size": 21,
+        "positive_rate": 0.6190476190476191,
+        "group_percentage": 2.1
+      },
+      "45.0": {
+        "group_size": 18,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 1.7999999999999998
+      },
+      "77.0": {
+        "group_size": 22,
+        "positive_rate": 0.45454545454545453,
+        "group_percentage": 2.1999999999999997
+      },
+      "70.0": {
+        "group_size": 14,
+        "positive_rate": 0.6428571428571429,
+        "group_percentage": 1.4000000000000001
+      },
+      "41.0": {
+        "group_size": 9,
+        "positive_rate": 0.7777777777777778,
+        "group_percentage": 0.8999999999999999
+      },
+      "79.0": {
+        "group_size": 13,
+        "positive_rate": 0.38461538461538464,
+        "group_percentage": 1.3
+      },
+      "47.0": {
+        "group_size": 11,
+        "positive_rate": 0.7272727272727273,
+        "group_percentage": 1.0999999999999999
+      },
+      "36.0": {
+        "group_size": 17,
+        "positive_rate": 0.6470588235294118,
+        "group_percentage": 1.7000000000000002
+      },
+      "46.0": {
+        "group_size": 16,
+        "positive_rate": 0.625,
+        "group_percentage": 1.6
+      },
+      "57.0": {
+        "group_size": 21,
+        "positive_rate": 0.5238095238095238,
+        "group_percentage": 2.1
+      },
+      "71.0": {
+        "group_size": 15,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 1.5
+      },
+      "27.0": {
+        "group_size": 11,
+        "positive_rate": 0.6363636363636364,
+        "group_percentage": 1.0999999999999999
+      },
+      "21.0": {
+        "group_size": 13,
+        "positive_rate": 0.6923076923076923,
+        "group_percentage": 1.3
+      },
+      "66.0": {
+        "group_size": 12,
+        "positive_rate": 0.5833333333333334,
+        "group_percentage": 1.2
+      },
+      "33.0": {
+        "group_size": 15,
+        "positive_rate": 0.5333333333333333,
+        "group_percentage": 1.5
+      },
+      "35.0": {
+        "group_size": 15,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 1.5
+      },
+      "102.0": {
+        "group_size": 2,
+        "positive_rate": 1.0,
+        "group_percentage": 0.2
+      },
+      "20.0": {
+        "group_size": 15,
+        "positive_rate": 0.6,
+        "group_percentage": 1.5
+      },
+      "74.0": {
+        "group_size": 22,
+        "positive_rate": 0.6818181818181818,
+        "group_percentage": 2.1999999999999997
+      },
+      "65.0": {
+        "group_size": 14,
+        "positive_rate": 0.6428571428571429,
+        "group_percentage": 1.4000000000000001
+      },
+      "58.0": {
+        "group_size": 16,
+        "positive_rate": 0.75,
+        "group_percentage": 1.6
+      },
+      "75.0": {
+        "group_size": 17,
+        "positive_rate": 0.5294117647058824,
+        "group_percentage": 1.7000000000000002
+      },
+      "29.0": {
+        "group_size": 16,
+        "positive_rate": 0.5,
+        "group_percentage": 1.6
+      },
+      "64.0": {
+        "group_size": 26,
+        "positive_rate": 0.6538461538461539,
+        "group_percentage": 2.6
+      },
+      "59.0": {
+        "group_size": 15,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 1.5
+      },
+      "76.0": {
+        "group_size": 14,
+        "positive_rate": 0.5714285714285714,
+        "group_percentage": 1.4000000000000001
+      },
+      "56.0": {
+        "group_size": 15,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 1.5
+      },
+      "28.5": {
+        "group_size": 5,
+        "positive_rate": 0.4,
+        "group_percentage": 0.5
+      },
+      "22.0": {
+        "group_size": 11,
+        "positive_rate": 0.6363636363636364,
+        "group_percentage": 1.0999999999999999
+      },
+      "62.0": {
+        "group_size": 10,
+        "positive_rate": 0.4,
+        "group_percentage": 1.0
+      },
+      "60.0": {
+        "group_size": 16,
+        "positive_rate": 0.8125,
+        "group_percentage": 1.6
+      },
+      "55.0": {
+        "group_size": 6,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 0.6
+      },
+      "67.5": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      },
+      "51.0": {
+        "group_size": 16,
+        "positive_rate": 0.375,
+        "group_percentage": 1.6
+      },
+      "26.0": {
+        "group_size": 17,
+        "positive_rate": 0.7058823529411765,
+        "group_percentage": 1.7000000000000002
+      },
+      "23.0": {
+        "group_size": 14,
+        "positive_rate": 0.42857142857142855,
+        "group_percentage": 1.4000000000000001
+      },
+      "42.0": {
+        "group_size": 21,
+        "positive_rate": 0.7142857142857143,
+        "group_percentage": 2.1
+      },
+      "19.0": {
+        "group_size": 14,
+        "positive_rate": 0.5,
+        "group_percentage": 1.4000000000000001
+      },
+      "48.0": {
+        "group_size": 12,
+        "positive_rate": 0.4166666666666667,
+        "group_percentage": 1.2
+      },
+      "69.0": {
+        "group_size": 16,
+        "positive_rate": 0.5625,
+        "group_percentage": 1.6
+      },
+      "25.0": {
+        "group_size": 21,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 2.1
+      },
+      "79.5": {
+        "group_size": 3,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 0.3
+      },
+      "73.0": {
+        "group_size": 15,
+        "positive_rate": 0.5333333333333333,
+        "group_percentage": 1.5
+      },
+      "63.0": {
+        "group_size": 19,
+        "positive_rate": 0.8421052631578947,
+        "group_percentage": 1.9
+      },
+      "30.0": {
+        "group_size": 24,
+        "positive_rate": 0.5833333333333334,
+        "group_percentage": 2.4
+      },
+      "61.0": {
+        "group_size": 9,
+        "positive_rate": 0.8888888888888888,
+        "group_percentage": 0.8999999999999999
+      },
+      "72.0": {
+        "group_size": 17,
+        "positive_rate": 0.47058823529411764,
+        "group_percentage": 1.7000000000000002
+      },
+      "52.0": {
+        "group_size": 16,
+        "positive_rate": 0.5625,
+        "group_percentage": 1.6
+      },
+      "37.0": {
+        "group_size": 6,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 0.6
+      },
+      "67.0": {
+        "group_size": 16,
+        "positive_rate": 0.5625,
+        "group_percentage": 1.6
+      },
+      "46.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "43.0": {
+        "group_size": 10,
+        "positive_rate": 0.7,
+        "group_percentage": 1.0
+      },
+      "18.0": {
+        "group_size": 18,
+        "positive_rate": 0.6111111111111112,
+        "group_percentage": 1.7999999999999998
+      },
+      "76.5": {
+        "group_size": 5,
+        "positive_rate": 0.6,
+        "group_percentage": 0.5
+      },
+      "109.5": {
+        "group_size": 3,
+        "positive_rate": 1.0,
+        "group_percentage": 0.3
+      },
+      "38.0": {
+        "group_size": 14,
+        "positive_rate": 0.7857142857142857,
+        "group_percentage": 1.4000000000000001
+      },
+      "108.0": {
+        "group_size": 2,
+        "positive_rate": 1.0,
+        "group_percentage": 0.2
+      },
+      "73.5": {
+        "group_size": 3,
+        "positive_rate": 1.0,
+        "group_percentage": 0.3
+      },
+      "24.0": {
+        "group_size": 17,
+        "positive_rate": 0.5882352941176471,
+        "group_percentage": 1.7000000000000002
+      },
+      "52.5": {
+        "group_size": 6,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 0.6
+      },
+      "117.0": {
+        "group_size": 2,
+        "positive_rate": 0.5,
+        "group_percentage": 0.2
+      },
+      "106.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "87.0": {
+        "group_size": 2,
+        "positive_rate": 1.0,
+        "group_percentage": 0.2
+      },
+      "105.0": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      },
+      "94.5": {
+        "group_size": 3,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 0.3
+      },
+      "78.0": {
+        "group_size": 9,
+        "positive_rate": 0.6666666666666666,
+        "group_percentage": 0.8999999999999999
+      },
+      "40.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "28.0": {
+        "group_size": 9,
+        "positive_rate": 0.7777777777777778,
+        "group_percentage": 0.8999999999999999
+      },
+      "53.0": {
+        "group_size": 10,
+        "positive_rate": 0.4,
+        "group_percentage": 1.0
+      },
+      "90.0": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "61.5": {
+        "group_size": 3,
+        "positive_rate": 1.0,
+        "group_percentage": 0.3
+      },
+      "54.0": {
+        "group_size": 8,
+        "positive_rate": 0.75,
+        "group_percentage": 0.8
+      },
+      "103.5": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      },
+      "93.0": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "84.0": {
+        "group_size": 2,
+        "positive_rate": 1.0,
+        "group_percentage": 0.2
+      },
+      "37.5": {
+        "group_size": 2,
+        "positive_rate": 1.0,
+        "group_percentage": 0.2
+      },
+      "50.0": {
+        "group_size": 7,
+        "positive_rate": 0.5714285714285714,
+        "group_percentage": 0.7000000000000001
+      },
+      "44.0": {
+        "group_size": 11,
+        "positive_rate": 0.7272727272727273,
+        "group_percentage": 1.0999999999999999
+      },
+      "97.5": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      },
+      "114.0": {
+        "group_size": 2,
+        "positive_rate": 0.5,
+        "group_percentage": 0.2
+      },
+      "82.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "49.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "81.0": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      },
+      "99.0": {
+        "group_size": 2,
+        "positive_rate": 0.5,
+        "group_percentage": 0.2
+      },
+      "85.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "64.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "70.5": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      },
+      "91.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "118.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "55.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "34.5": {
+        "group_size": 2,
+        "positive_rate": 1.0,
+        "group_percentage": 0.2
+      },
+      "31.5": {
+        "group_size": 1,
+        "positive_rate": 1.0,
+        "group_percentage": 0.1
+      },
+      "100.5": {
+        "group_size": 1,
+        "positive_rate": 0.0,
+        "group_percentage": 0.1
+      }
+    },
+    "gender": {
+      "M": {
+        "group_size": 313,
+        "positive_rate": 0.6230031948881789,
+        "group_percentage": 31.3
+      },
+      "F": {
+        "group_size": 339,
+        "positive_rate": 0.6194690265486725,
+        "group_percentage": 33.900000000000006
+      },
+      "Other": {
+        "group_size": 348,
+        "positive_rate": 0.6408045977011494,
+        "group_percentage": 34.8
+      }
+    },
+    "race": {
+      "Other": {
+        "group_size": 218,
+        "positive_rate": 0.6788990825688074,
+        "group_percentage": 21.8
+      },
+      "Asian": {
+        "group_size": 207,
+        "positive_rate": 0.6086956521739131,
+        "group_percentage": 20.7
+      },
+      "White": {
+        "group_size": 176,
+        "positive_rate": 0.6363636363636364,
+        "group_percentage": 17.599999999999998
+      },
+      "Hispanic": {
+        "group_size": 195,
+        "positive_rate": 0.6358974358974359,
+        "group_percentage": 19.5
+      },
+      "Black": {
+        "group_size": 204,
+        "positive_rate": 0.5784313725490197,
+        "group_percentage": 20.4
+      }
+    }
+  },
+  "performance_metrics": {
+    "positive_rate": 0.628
+  }
+}

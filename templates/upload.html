@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI Model Audit System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .upload-container {
+        border: 2px dashed #ccc;
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .progress {
+        display: none;
+        margin: 20px 0;
+      }
+      .results {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        display: none;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:disabled {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AI Model Audit System</h1>
+
+    <div class="upload-container">
+      <h2>Upload Model File</h2>
+      <input type="file" id="modelFile" accept=".pkl,.h5,.savedmodel" />
+      <button onclick="uploadModel()">Upload & Start Audit</button>
+    </div>
+
+    <div class="progress" id="progress">
+      <h3>Audit in Progress...</h3>
+      <progress></progress>
+    </div>
+
+    <div class="results" id="results">
+      <h3>Audit Results</h3>
+      <pre id="resultContent"></pre>
+    </div>
+
+    <script>
+      async function uploadModel() {
+        const fileInput = document.getElementById('modelFile')
+        const file = fileInput.files[0]
+        if (!file) {
+          alert('Please select a file first')
+          return
+        }
+
+        // Show progress
+        document.getElementById('progress').style.display = 'block'
+
+        // Create FormData
+        const formData = new FormData()
+        formData.append('model_file', file)
+
+        try {
+          // Upload file
+          const uploadResponse = await fetch('/upload-model', {
+            method: 'POST',
+            body: formData,
+          })
+          const uploadResult = await uploadResponse.json()
+
+          if (uploadResult.status === 'uploaded') {
+            // Start audit
+            const auditFormData = new FormData()
+            auditFormData.append('model_file', file.name)
+
+            const auditResponse = await fetch('/start-audit', {
+              method: 'POST',
+              body: auditFormData,
+            })
+            const auditResult = await auditResponse.json()
+
+            // Display results
+            document.getElementById('progress').style.display = 'none'
+            document.getElementById('results').style.display = 'block'
+            document.getElementById('resultContent').textContent =
+              JSON.stringify(auditResult, null, 2)
+          }
+        } catch (error) {
+          console.error('Error:', error)
+          alert('An error occurred during the audit process')
+          document.getElementById('progress').style.display = 'none'
+        }
+      }
+    </script>
+  </body>
+</html>

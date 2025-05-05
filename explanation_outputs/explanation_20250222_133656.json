@@ -1,0 +1,121 @@
+{
+    "timestamp": "2025-02-22T13:36:56.397400",
+    "model_type": "DataFrame",
+    "feature_importance": {
+        "annual_income": 0.24486885026363225,
+        "credit_score": 0.2254760318264541,
+        "loan_amount": 0.0031348138805916007,
+        "debt_to_income": 0.005499226538363567,
+        "employment_length": 0.004083103547308578,
+        "age": 0.0,
+        "gender": 0.0,
+        "race": 0.0
+    },
+    "sample_explanations": {
+        "0": {
+            "annual_income": 5.828670879282072e-16,
+            "credit_score": 4.579669976578771e-16,
+            "loan_amount": 5.312590645178972e-18,
+            "debt_to_income": 2.168404344971009e-19,
+            "employment_length": -2.168404344971009e-18,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "1": {
+            "annual_income": 5.412337245047638e-16,
+            "credit_score": 3.469446951953614e-16,
+            "loan_amount": 3.469446951953614e-18,
+            "debt_to_income": 1.3010426069826053e-18,
+            "employment_length": 4.119968255444917e-18,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "2": {
+            "annual_income": 5.551115123125783e-16,
+            "credit_score": 4.579669976578771e-16,
+            "loan_amount": -7.806255641895632e-18,
+            "debt_to_income": -3.469446951953614e-18,
+            "employment_length": 2.168404344971009e-18,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "3": {
+            "annual_income": 5.967448757360216e-16,
+            "credit_score": 4.0245584642661925e-16,
+            "loan_amount": 8.673617379884035e-19,
+            "debt_to_income": 1.734723475976807e-18,
+            "employment_length": 4.336808689942018e-18,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        },
+        "4": {
+            "annual_income": 6.38378239159465e-16,
+            "credit_score": 3.885780586188048e-16,
+            "loan_amount": 2.6020852139652106e-18,
+            "debt_to_income": -7.806255641895632e-18,
+            "employment_length": 4.7704895589362195e-18,
+            "age": 0.0,
+            "gender": 0.0,
+            "race": 0.0
+        }
+    },
+    "global_impact": {
+        "annual_income": {
+            "mean_impact": 5.579980921766037e-16,
+            "abs_mean_impact": 0.24486885026363225,
+            "max_impact": 0.25360566827251324,
+            "std_impact": 0.24488554816018857
+        },
+        "credit_score": {
+            "mean_impact": 3.5438318946035e-16,
+            "abs_mean_impact": 0.22547603182645418,
+            "max_impact": 0.24620427504617357,
+            "std_impact": 0.22551714007659165
+        },
+        "loan_amount": {
+            "mean_impact": 2.403459375965866e-18,
+            "abs_mean_impact": 0.0031348138805915955,
+            "max_impact": 0.00849687940789909,
+            "std_impact": 0.003949732264751366
+        },
+        "debt_to_income": {
+            "mean_impact": -1.9012569296705807e-18,
+            "abs_mean_impact": 0.005499226538363555,
+            "max_impact": 0.012455227843531255,
+            "std_impact": 0.0063164678289855565
+        },
+        "employment_length": {
+            "mean_impact": 4.028027911218146e-18,
+            "abs_mean_impact": 0.004083103547308573,
+            "max_impact": 0.01788341601519831,
+            "std_impact": 0.00459807142729822
+        },
+        "age": {
+            "mean_impact": 0.0,
+            "abs_mean_impact": 0.0,
+            "max_impact": 0.0,
+            "std_impact": 0.0
+        },
+        "gender": {
+            "mean_impact": 0.0,
+            "abs_mean_impact": 0.0,
+            "max_impact": 0.0,
+            "std_impact": 0.0
+        },
+        "race": {
+            "mean_impact": 0.0,
+            "abs_mean_impact": 0.0,
+            "max_impact": 0.0,
+            "std_impact": 0.0
+        }
+    },
+    "protected_attribute_influence": {
+        "age": 0.0,
+        "gender": 0.0,
+        "race": 0.0
+    }
+}

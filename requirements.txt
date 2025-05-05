@@ -1,0 +1,13 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+python-multipart==0.0.20
+aif360==0.6.1
+fairlearn==0.12.0
+numpy<2.0.0
+pandas>=2.0.0
+scikit-learn>=1.0
+matplotlib>=3.7.0
+joblib>=1.2.0
+shap>=0.41.0
+scipy>=1.9.0
+Jinja2>=3.0.0

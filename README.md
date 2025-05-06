@@ -81,10 +81,3 @@ The API will be available at http://localhost:8000 with the following endpoints:
 - `GET /audit/{audit_id}/status` - Check the status of an audit
 - `GET /metrics` - List available metrics and compliance standards
 
-## License
-
-[Your License Here]
-
-## Contact
-
-[Your Contact Information]
